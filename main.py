@@ -7,7 +7,8 @@ Source: https://github.com/nirojhub/AI-OpenAI-Whisper-STT
 Description: Main program that orchestrates the Whisper STT functionality.
 
 """
-
+# Run using Python 3.12 or less.
+# !pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu132
 import os
 import whisper
 import torch
